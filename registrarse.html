@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros Gómez</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="header__navbar">
+            <a href="index.html" class="navbar__button">Inicio</a>
+            <a href="iniciar_sesion.html" class="navbar__button">Iniciar Sesión</a>
+            <a href="#" class="navbar__button--rounded">Registrarse</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="login">
+            <div class="login__container">
+                <h3 class="login__title">Registrarse</h3>
+                <form action="/registro" method="post" class="login__form">
+                    <div class="login__inputs">
+                        <input type="email" name="registro__email" id="registro__email" class="login__field" placeholder="Email">
+                        <input type="password" name="registro__password" id="registro__password" class="login__field" placeholder="Password">
+                        <input type="password" name="registro__cpassword" id="registro__cpassword" class="login__field" placeholder="Confirmar Password">
+                    </div>
+                    <button type="submit" id="registro__submit" class="login__submit">Registrarse</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <aside class="news">
+        <h4 class="section__title">Noticias</h3>
+        <div class="news__container">
+            <div class="news__item news__item--1">
+                <header class="news__header">
+                    <p class="news__title">Noticia</p>
+                    <p class="news__date">2021/12/12</p>
+                </header>
+                <p class="news__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+            </div>
+            <div class="news__item news__item--2">
+                <header class="news__header">
+                    <p class="news__title">Noticia 2</p>
+                    <p class="news__date">2021/12/12</p>
+                </header>
+                <p class="news__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+            </div>
+            <div class="news__item news__item--3">
+                <header class="news__header">
+                    <p class="news__title">Noticia 3</p>
+                    <p class="news__date">2021/12/12</p>
+                </header>
+                <p class="news__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+            </div>
+        </div>
+    </aside>
+    <footer class="footer">
+        <p>&copy; 2023 Libros Gómez. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
